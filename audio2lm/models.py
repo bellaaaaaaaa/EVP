@@ -308,13 +308,4 @@ class AT_emoiton(nn.Module):
     #    target2 = data['target22']
     #    target12 = data['target12']
     #    target21 = data['target21']
-        
-        
-        return 0 
-    
-
-    
-
-
-
-   
+        return 0

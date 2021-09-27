@@ -1,3 +1,4 @@
+from numpy import single
 import torch
 import torchvision
 import torch.nn as nn
@@ -74,4 +75,3 @@ def _apply(layer, activation, normalizer, channel_out=None):
     if activation:
         layer.append(activation())
     return layer
-

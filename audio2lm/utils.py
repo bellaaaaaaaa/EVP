@@ -22,6 +22,7 @@ from tqdm import tqdm
 from skimage import transform as tf
 import torchvision.transforms as transforms
 import random
+
 def shape_to_np(shape, dtype="int"):
     # initialize the list of (x, y)-coordinates
     coords = np.zeros((shape.num_parts, 2), dtype=dtype)
@@ -406,12 +407,6 @@ def change_mouth(fake_lmark, clip):
             ratio = random.uniform(0.9,1)
             fake_lmark[i] = (1-ratio)*fake_lmark[i] + ratio*close_mouth
     return fake_lmark
-    
-    
-    
-        
-        
-        
 
 def main():
     return

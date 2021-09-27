@@ -214,4 +214,3 @@ if __name__ == "__main__":
     with open(opt.config) as f:
         config = yaml.load(f)
     test(opt,config)
-

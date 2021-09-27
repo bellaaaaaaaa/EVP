@@ -1,13 +1,14 @@
-torch==1.2.0
+torch==1.9.1
 torchvision
 numpy
 librosa
 opencv-python
 python_speech_features
-pickle
+# pickle
 matplotlib
 scikit-image
 Pillow
 tqdm
 dlib
 scipy
+
